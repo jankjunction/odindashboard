@@ -156,11 +156,15 @@ select:focus {
 .logged-in {
   color: white;
   font-weight: 700;
+  max-width: 350px;
   display: grid;
   grid: 1fr 1fr 2fr;
   grid-auto-flow: column;
   align-content: center;
-  gap: 10px;
+  justify-self: end;
+  padding: 16px;
+  gap: 24px;
+  margin-right: 50px;
 }
 .logged-in > i {
   justify-self: end;
@@ -208,6 +212,8 @@ select:focus {
   align-content: center;
   gap: 20px;
   font-weight: 700;
+  justify-self: end;
+  margin-right: 50px;
 }
 
 .header-actions > div {
@@ -314,6 +320,7 @@ select:focus {
   grid-row: 2 / 3;
   display: grid;
   grid-template-rows: min-content 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
   gap: 8px;
 }
 
@@ -337,6 +344,7 @@ select:focus {
 .trending-card > img {
   grid-row: 1 / 2;
   width: 40px;
+  min-width: 40px;
 }
 
 /* Content Styling End */
