@@ -75,6 +75,7 @@ select:focus {
   background-color: hsl(52, 99%, 62%);
   grid-column: 2 / 3;
   grid-row: 2 / 5;
+  box-shadow: inset 0px 6px 4px -4px #888;
 }
 /* Grid Setup End */
 
@@ -234,6 +235,7 @@ select:focus {
   font-weight: 700;
   padding: 15px;
   gap: 15px;
+  padding-right: 24px;
 }
 
 .projects {
@@ -262,6 +264,7 @@ select:focus {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 8px;
   min-width: 190px;
+  box-shadow: 2px 2px 4px #888;
 }
 
 .card-title {
@@ -289,6 +292,9 @@ select:focus {
 .announcements-container {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  align-content: stretch;
 }
 
 .announcements {
@@ -297,11 +303,13 @@ select:focus {
   display: grid;
   padding: 16px;
   gap: 16px;
+  box-shadow: 2px 2px 4px #888;
 }
 
 .announcements-card {
   border-bottom: 1px solid black;
   padding: 8px;
+  align-self: stretch;
 }
 
 .announcements-header {
@@ -332,6 +340,7 @@ select:focus {
   align-items: center;
   gap: 16px;
   padding: 16px;
+  box-shadow: 2px 2px 4px #888;
 
 }
 
