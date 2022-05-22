@@ -59,20 +59,20 @@ select:focus {
 }
 
 .header-container {
-  background-color: hsl(189, 82%, 82%);
+  background-color: hsl(195, 100%, 49%);
   grid-column: 2 / 3;
   grid-row: 1 /1;
   padding: 15px;
 }
 
 .sidebar-container {
-  background-color: hsl(132, 56%, 76%);
+  background-color: hsl(267, 72%, 63%);
   grid-row: 1 / 5;
   color: white;
 }
 
 .content-container {
-  background-color: hsl(32, 60%, 95%);
+  background-color: hsl(52, 99%, 62%);
   grid-column: 2 / 3;
   grid-row: 2 / 5;
 }
@@ -213,7 +213,7 @@ select:focus {
 .header-actions > div {
   background-color: white;
   border-radius: 8px;
-  color: hsl(189, 82%, 82%);
+  color: hsl(195, 100%, 49%);
   padding: 2px 16px 2px 16px;
   width: auto;
 }
@@ -249,7 +249,7 @@ select:focus {
 .project-card {
   background-color: white;
   color: grey;
-  border-left: 10px solid gray;
+  border-left: 10px solid hsl(324, 84%, 65%);
   border-radius: 8px;
   padding: 16px;
   display: grid;
@@ -314,6 +314,7 @@ select:focus {
   grid-row: 2 / 3;
   display: grid;
   grid-template-rows: min-content 1fr 1fr 1fr;
+  gap: 8px;
 }
 
 .trending-card {
